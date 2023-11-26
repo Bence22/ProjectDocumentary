@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="TravelWebPage" company="" webLink="http://" view-date="2024-02-13" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="hu_HU">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Név" width="200" order="0"/>
+        <field id="tpd4" name="Kezdő dátum" width="75" order="1"/>
+        <field id="tpd5" name="Záró dátum" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[1,7,4,0,2,5]]>
+        </timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Név" width="210" order="0"/>
+        <field id="1" name="Alapértelmezett szerepkör" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Tervezés" color="#8cb6ce" meeting="false" start="2023-11-27" duration="15" complete="0" thirdDate="2023-11-27" thirdDate-constraint="1" expand="true">
+            <notes>
+                <![CDATA[Ügyfél igények felmérése, honlap tervezése.]]>
+            </notes>
+        </task>
+        <task id="1" name="Előkészületek" color="#8cb6ce" meeting="false" start="2023-12-05" duration="10" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Ügyfél igények tisztázása, pontosítása. Képek, források begyűjtése]]>
+            </notes>
+        </task>
+        <task id="2" name="Honlap vázának az elkészítése" color="#8cb6ce" meeting="false" start="2023-12-15" duration="15" complete="1" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Elkészül a honlap alap szerkezete.]]>
+            </notes>
+        </task>
+        <task id="3" name="Bankend részek elkészítése" color="#8cb6ce" meeting="false" start="2023-12-28" duration="20" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Kinézet, dizájn elkészítése" color="#8cb6ce" meeting="false" start="2024-01-04" duration="20" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Egyeztetés a megrendelővel, esetleges módosítások" color="#8cb6ce" meeting="false" start="2024-01-15" duration="2" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Adatok feltöltése" color="#8cb6ce" meeting="false" start="2024-01-31" duration="10" complete="0" thirdDate="2024-01-12" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Oldal tesztelése" color="#8cb6ce" meeting="false" start="2024-02-13" duration="10" complete="0" thirdDate="2023-11-24" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Projektzárás, értékelés" color="#8cb6ce" meeting="false" start="2024-02-26" duration="5" complete="0" thirdDate="2024-01-12" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Őrsi Bence" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Taksár Tamás" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
